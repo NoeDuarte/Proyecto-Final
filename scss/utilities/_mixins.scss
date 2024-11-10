@@ -1,0 +1,26 @@
+@mixin boton-estilo($color, $bg-color, $padding: 10px) {
+    color: $color;
+    background-color: $bg-color;
+    padding: $padding;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    &:hover {
+        background-color: darken($bg-color, 10%);
+    }
+}
+
+
+@mixin contenedor-imagen($border-radius: 10px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        border-radius: $border-radius;
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

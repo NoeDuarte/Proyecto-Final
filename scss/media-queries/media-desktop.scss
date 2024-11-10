@@ -1,0 +1,9 @@
+@media (min-width: #{$notebook}) {
+    .navbar .nav-link {
+      font-size: 1.2rem;
+    }
+  
+    .grid-container-img {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }

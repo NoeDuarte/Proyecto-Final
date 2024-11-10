@@ -1,0 +1,9 @@
+@media (min-width: #{$tablet}) and (max-width: #{$notebook}) {
+    .navbar .nav-link {
+      font-size: 1.1rem;
+    }
+  
+    .grid-container-img {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }

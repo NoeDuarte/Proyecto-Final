@@ -1,0 +1,13 @@
+@media (min-width: #{$mobile}) and (max-width: #{$tablet}) {
+    .navbar .nav-link {
+      font-size: 1rem;
+    }
+  
+    .grid-container-img {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .anuncio p {
+      font-size: 1rem;
+    }
+  }

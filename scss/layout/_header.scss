@@ -1,0 +1,51 @@
+@import "../utilities/variables";
+header{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid gray;
+        img{
+            width: 10rem;
+        }
+
+        padding: $header-padding 0;
+        background-color: #f8f9fa;
+        position: fixed;
+        top: 40px; // Ajusta la posición para que quede debajo del anuncio
+        width: 100%;
+        z-index: 50; // Un nivel debajo del anuncio, pero en frente del resto del contenido
+        padding: 1rem 0;
+    
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            .logo {
+                max-width: $logo-width;
+            }
+        }
+    
+        .navbar {
+            .nav-link {
+                color: #333;
+                &:hover {
+                    color: darken($primary-color, 10%);
+                }
+            }
+        }
+    
+    
+    .plataforma{
+        a {
+            color: #333;
+            font-weight: bold;
+            margin-right: 0.5rem;
+            &:hover {
+                color: darken($primary-color, 10%);
+            }
+        }
+        .menu-icon {
+            max-width: $menu-icon-size;
+        }
+    }
+}

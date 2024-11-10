@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+    .anuncio {
+        font-size: 0.9rem;
+    }
+
+    header {
+        .header-content {
+            flex-direction: column;
+
+            .plataforma {
+                display: flex;
+                justify-content: center;
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        max-width: 100px;
+    }
+}

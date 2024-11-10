@@ -1,0 +1,14 @@
+@media (max-width: #{$mobile}) {
+    .navbar {
+      font-size: 0.9rem;
+    }
+  
+    .grid-container-img {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+    }
+  
+    .anuncio p {
+      font-size: 0.9rem;
+    }
+  }

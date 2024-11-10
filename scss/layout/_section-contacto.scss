@@ -1,0 +1,21 @@
+.container_contacto {
+    .row {
+        align-items: center;
+
+        .col-md-6 {
+            &:first-child {
+                // Estilo de la imagen
+                img {
+                    width: 110%; // Agranda un poco la imagen
+                    max-width: 70%; // Evita que exceda el contenedor
+                    margin-right: -10px; // Reduce el espacio entre imagen y texto
+                }
+            }
+
+            &:last-child {
+                // Ajuste opcional de padding para acercar el texto
+                padding-left: 15px;
+            }
+        }
+    }
+}
